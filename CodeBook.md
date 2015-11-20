@@ -7,6 +7,7 @@ CodeBook.md
 This document describes the code in run_analysis.R
 
 **Data set**
+
 The original UCI HAR Dataset contained multiple files:
 * activity_labels.txt (List of activities corresponding to labels)
 * features.txt (List of features)
@@ -22,6 +23,7 @@ The data set consists of estimated variables calculated from the features.
 For the purposes of this analysis, only the mean and standard deviation were considered.
 
 **Analysis**
+
 The script performed analysis as follows:
 * Data files were individually read into objects using the read.table().
 * Each set of test data was appended to the corresponding training data using rbind().
