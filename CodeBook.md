@@ -23,7 +23,7 @@ For the purposes of this analysis, only the mean and standard deviation were con
 
 **Analysis**
 The script performed analysis as follows:
-1. Data files were individually read into objects using the read.table().
+1. Data files were individually read into objects using the read.table().\n
 2. Each set of test data was appended to the corresponding training data using rbind().
 3. The measurement data was filtered to only include features that contain "mean()" or "std()" in the name.
 4. Activity names were merged into the list of labels for each measurement.
